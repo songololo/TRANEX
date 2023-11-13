@@ -1,0 +1,20 @@
+[project]
+name = "TRANEX"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "Gareth Simons", email = "garethsimons@me.com"},
+]
+dependencies = [
+    "shapely>=2.0.2",
+    "geopandas>=0.14.1",
+    "psycopg>=3.1.12",
+    "grass-session>=0.5",
+]
+requires-python = ">=3.12"
+readme = "README.md"
+license = {text = "Apache-2.0"}
+
+[build-system]
+requires = ["pdm-backend"]
+build-backend = "pdm.backend"
